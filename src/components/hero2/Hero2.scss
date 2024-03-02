@@ -1,0 +1,12 @@
+.hero2 {
+    padding-block: 6rem;
+    background-color: #fff; // Agrega el color de fondo amarillo aquí
+  
+    &__container {
+      display: grid;
+      align-items: center; // Centra verticalmente
+      justify-content: center; // Centra horizontalmente
+      grid-template-columns: repeat(2, 1fr);
+      gap: 4rem;
+    }
+}

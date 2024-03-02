@@ -26,6 +26,8 @@
     &_links{
         display: flex;
         align-items: center;
+        color: #242e5f;
+        text-decoration: bold;
         gap: 2.5rem;
         @include respond (tab-port){
             display: none;
@@ -43,11 +45,11 @@
         }
     
         a{
-            color: #222;
+            color: #242e5f;
             transition: color 0.3s ease-in-out;
 
             &:hover{
-                color: #6f00eb;
+                color: #ffb819;
             }
         }
     }

@@ -1,1 +1,21 @@
+// Hero.scss
+
 @import '../../styles/mixins.scss';
+
+.hero {
+  padding-block: 6rem;
+  background-color: #ffb819; // Agrega el color de fondo amarillo aquí
+
+  &__container {
+    display: grid;
+    align-items: center; // Centra verticalmente
+    justify-content: center; // Centra horizontalmente
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+  }
+
+  img {
+    max-width: 100%; // Evita que la imagen se desborde del contenedor
+    height: auto; // Mantiene la proporción de la imagen
+  }
+}

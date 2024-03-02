@@ -1,1 +1,95 @@
 @import "../../styles/mixins.scss";
+
+.navbar{
+    padding-block:20px;
+    position: relative;
+
+    @include respond (phone){
+        padding-block: 15px;
+    }
+
+    &_container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &_logo{
+        img{
+          width: 100%;
+          @include respond (phone){
+            padding-block: 9rem;
+        }
+    }
+    }
+
+    &_links{
+        display: flex;
+        align-items: center;
+        gap: 2.5rem;
+        @include respond (tab-port){
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            background-color: #e7d6f9 ;
+            width: 100%;
+            left: 0;
+            top: 100%;
+            padding-block: 1rem;
+            gap: 1rem;
+            align-items: flex-start;
+            padding-left: 1rem;
+            animation: navMotion 0.5s ease;
+        }
+    
+        a{
+            color: #222;
+            transition: color 0.3s ease-in-out;
+
+            &:hover{
+                color: #6f00eb;
+            }
+        }
+    }
+
+    &_btn{
+        @include respond (tab-port){
+            display: none;
+        }
+    }
+    &_menubar{
+        display:none;
+        cursor: pointer;
+        border-radius: 50%;
+        padding:0.8rem;
+        background-color: #6f00eb;
+        transition: all 0.3s ease;
+
+        svg{
+            display: grid;
+            place-content: center;
+            font-size: 1.2rem;
+            color: #fff;
+        }
+        @include respond (tab-port){
+            display: inline-block;
+        }
+    }
+}
+
+.show-nav{
+    display: flex;
+}
+
+.bg-color{
+    background-color: #222;
+}
+
+@keyframes navMotion{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}

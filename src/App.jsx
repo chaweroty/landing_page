@@ -3,6 +3,7 @@ import Hero from "./components/hero/Hero";
 import Hero2 from "./components/hero2/Hero2";
 import Section4 from "./components/section4/Section4";
 import Seccion6 from "./components/section6/Section6";
+import Section7 from "./components/section7/Section7";
 
 function App (){
   return (
@@ -12,6 +13,7 @@ function App (){
     <Hero2/>
     <Section4/>
     <Seccion6/>
+    <Section7/>
     </>
   );
 }

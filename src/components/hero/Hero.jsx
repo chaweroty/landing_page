@@ -9,13 +9,13 @@ import Img5 from "../../assets/hero-5.jpeg";
 import Img6 from "../../assets/hero-6.jpeg";
 
 const Hero = () => {
-    const images = [Img1,Img3,Img4,Img5,Img6]; // Agrega más imágenes aquí
+    const images = [Img1,Img3,Img4,Img5,Img6];
     const [currentImage, setCurrentImage] = useState(0);
   
     useEffect(() => {
       const interval = setInterval(() => {
         setCurrentImage((prevImage) => (prevImage + 1) % images.length);
-      }, 3000); // Cambia la imagen cada 3 segundos
+      }, 3000); 
   
       return () => clearInterval(interval);
     }, []);

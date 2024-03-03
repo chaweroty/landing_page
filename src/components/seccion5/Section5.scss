@@ -1,0 +1,43 @@
+.section5 {
+    padding-block: 6rem;
+    background-color: #fff; 
+  
+    &__container {
+      display: grid;
+      align-items: center; 
+      justify-content: center; 
+      gap: 4rem;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .section5_right {
+      display: flex;
+      gap: 2rem; 
+      align-items: center; 
+    }
+  
+    img {
+      max-width: 100%; 
+      height: auto; 
+    }
+  }
+  
+  .title-container3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .title-box {
+    background-color: #ffb71b; 
+    border-radius: 30px;
+    padding: 10px;
+    padding-right: 120px;
+    padding-left: 120px;
+  }
+  
+  .title {
+    margin: 0;
+    color: #162a68; 
+  }
+  

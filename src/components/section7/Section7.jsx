@@ -32,7 +32,7 @@ const Section7 = () => {
             <h1 className="title">Últimas publicaciones</h1>
           </div>
         </div>
-        <div className="card-grid">
+        <div className="card-grid2">
           {cardsData.map((card, index) => (
             <div key={index} className="custom-card">
               <img src={card.image} alt={`Card ${index + 1}`} />

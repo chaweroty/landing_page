@@ -6,30 +6,30 @@
     /* Agrega estilos según sea necesario */
   }
   
-  .card-grid {
+  .card-grid2 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Columnas del grid */
     grid-gap: 20px; /* Espacio entre las tarjetas */
     position: relative; /* Para que las tarjetas puedan tener posición absoluta relativa a este contenedor */
   }
   
-  .custom-card {
+  .custom-card2 {
     position: relative;
     overflow: hidden;
   }
   
-  .custom-card img {
+  .custom-card2 img {
     width: 100%;
     height: auto;
     display: block;
     transition: transform 0.3s ease;
   }
   
-  .custom-card:hover img {
+  .custom-card2:hover img {
     transform: scale(1.1); /* Escala de la imagen al pasar el mouse */
   }
   
-  .card-content {
+  .card-content2 {
     position: absolute;
     bottom: 10px; /* Cambia la posición desde abajo a 10px */
     left: 0;
@@ -39,12 +39,12 @@
     margin-top: -10px; /* Ajusta la posición hacia arriba */
   }
   
-  .card-content h3 {
+  .card-content2 h3 {
     margin: 0;
     color: #333; /* Color del título */
   }
   
-  .card-content p {
+  .card-content2 p {
     margin: 0;
     color: #333; /* Color del texto */
     overflow: visible; /* Permite que el texto se desborde hacia abajo */

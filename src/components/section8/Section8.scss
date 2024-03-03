@@ -20,19 +20,19 @@
   .Section8 {
     background-color: #fff;
     position: relative;
-    padding: 7rem 0; /* Ajusta el relleno superior e inferior según sea necesario */
+    padding: 7rem 0; 
   }
   
   .empresas_aliadas {
     display: flex;
-    justify-content: space-around; /* Distribuye las imágenes de manera uniforme horizontalmente */
+    justify-content: space-around; 
     align-items: center;
-    flex-wrap: nowrap; /* Evita que las imágenes se envuelvan en varias líneas */
-    margin: 3.5rem 10rem; /* Margen superior e inferior de 3.5rem y margen izquierdo y derecho de 10rem */
+    flex-wrap: nowrap; 
+    margin: 3.5rem 10rem; 
   }
   
   .empresas_aliadas img {
-    width: 150px; /* Ajusta el ancho de las imágenes según sea necesario */
-    margin: 0 1rem; /* Añade un margen horizontal de 1rem entre las imágenes */
+    width: 150px; 
+    margin: 0 1rem; 
   }
   

@@ -38,11 +38,11 @@ const Section6 = () => {
   ))}
 </div>
 
-        <div className="card-grid">
+        <div className="card-grid2">
           {cardsData.map((card, index) => (
-            <div key={index} className="custom-card" style={{ backgroundColor: card.color }}>
+            <div key={index} className="custom-card2" style={{ backgroundColor: card.color }}>
               <img src={card.image} alt={`Card ${index + 1}`} />
-              <div className="card-content">
+              <div className="card-content2">
                 <p>{card.text}</p>
               </div>
             </div>

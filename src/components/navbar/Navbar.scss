@@ -102,20 +102,20 @@
   
   .dropdown-menu {
     position: absolute;
-    top: calc(100% + 5px); // Coloca el menú justo debajo del enlace
+    top: calc(100% + 5px); 
     left: 0;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     padding: 10px;
-    opacity: 0; /* Empieza oculto */
-    pointer-events: none; /* No interactúa hasta que esté visible */
-    transition: opacity 0.3s ease; /* Animación de opacidad */
+    opacity: 0; 
+    pointer-events: none; 
+    transition: opacity 0.3s ease; 
   }
   
   .dropdown-container:hover .dropdown-menu {
-    opacity: 1; /* Se hace visible al pasar el mouse por el contenedor */
-    pointer-events: auto; /* Habilita la interacción */
+    opacity: 1; 
+    pointer-events: auto; 
   }
   
   .dropdown-menu ul {
@@ -126,11 +126,11 @@
   
   .dropdown-menu li {
     margin-bottom: 5px;
-    transition: background-color 0.3s ease; /* Animación de color de fondo */
+    transition: background-color 0.3s ease; 
   }
   
   .dropdown-menu li:hover {
-    background-color: #f0f0f0; /* Cambia de color al pasar el mouse */
+    background-color: #f0f0f0; 
   }
   
   .dropdown-menu a {

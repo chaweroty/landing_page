@@ -8,9 +8,9 @@ const Header = () => {
 return (
     <section className="Header" style={{ backgroundColor: '#eda108', color: '#fff' }}>
     <Wrapper className="Header_container">
-        <div className="Header-column left-column">
-        <p>servicioalcliente@lasante.com.co</p>
-        </div>
+    <div className="Header-column left-column">
+        <p className="header-text">servicioalcliente@lasante.com.co</p>
+    </div>
         <div className="Header-column center-column">
         <div className="social-media">
             <div className="social-icons">

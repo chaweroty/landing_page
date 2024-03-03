@@ -6,10 +6,12 @@ import Seccion6 from "./components/section6/Section6";
 import Section7 from "./components/section7/Section7";
 import Section8 from "./components/section8/Section8";
 import Footer from "./components/footer/Footer";
+import Header from "./components/header/Header";
 
 function App (){
   return (
     <>
+    <Header/>
     <Navbar />
     <Hero />
     <Hero2/>
@@ -18,6 +20,7 @@ function App (){
     <Section7/>
     <Section8/>
     <Footer/>
+    
     </>
   );
 }

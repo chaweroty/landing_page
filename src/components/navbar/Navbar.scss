@@ -26,7 +26,7 @@
     &_links{
         display: flex;
         align-items: center;
-        color: #242e5f;
+        color: #0e2f57;
         text-decoration: bold;
         gap: 2.5rem;
         @include respond (tab-port){
@@ -45,7 +45,7 @@
         }
     
         a{
-            color: #242e5f;
+            color: #0e2f57;
             transition: color 0.3s ease-in-out;
 
             &:hover{
@@ -95,3 +95,53 @@
         transform: translateY(0%);
     }
 }
+
+.dropdown-container {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: calc(100% + 5px); // Coloca el menú justo debajo del enlace
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+    opacity: 0; /* Empieza oculto */
+    pointer-events: none; /* No interactúa hasta que esté visible */
+    transition: opacity 0.3s ease; /* Animación de opacidad */
+  }
+  
+  .dropdown-container:hover .dropdown-menu {
+    opacity: 1; /* Se hace visible al pasar el mouse por el contenedor */
+    pointer-events: auto; /* Habilita la interacción */
+  }
+  
+  .dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-menu li {
+    margin-bottom: 5px;
+    transition: background-color 0.3s ease; /* Animación de color de fondo */
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: #f0f0f0; /* Cambia de color al pasar el mouse */
+  }
+  
+  .dropdown-menu a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .dropdown-menu a:hover {
+    color: #001a70;
+  }
+  
+  
+  
+  
